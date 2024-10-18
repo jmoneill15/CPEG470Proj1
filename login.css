@@ -1,0 +1,127 @@
+/* Log in Page Styles*/
+body{
+    background-color: #022B3A;
+}
+/* User sign in page, the entire page*/
+#login{
+    position: relative;
+    margin: 18% 10%;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+
+}
+/* log in title*/
+#header{
+    color: #FFFDFD;
+    font-size: 15vh;
+    font-weight: 200;
+    align-self: center;
+    width: 100%;
+    margin-bottom: 30px;
+    font-family: "Garamond", Times, serif;
+}
+
+/* username label and input box */
+#usernameSection{
+    position: relative;
+    margin-bottom: 20px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#usernameLabel{
+    color:  #738290;
+    font-family: "Garamond", Times, serif;
+}
+
+/* username input box*/
+#username{
+    position: relative;
+    background-color: #FFFDFD;
+    color: #32161F;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 210px;
+    height: 20px;
+    border: 3px solid #32161F;
+    border-radius: 20px;
+    font-family: "Garamond", Times, serif;
+    padding: 4px;
+}
+#username:hover{
+    box-shadow: 0 2.5px 10px rgba(56, 5, 5, 0.606);
+}
+
+/* password label and input box */
+#passwordSection{
+    position: relative;
+    margin-bottom: 20px;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#passwordLabel{
+    color:  #738290;;
+    padding-right: 3px;
+    font-family: "Garamond", Times, serif;
+}
+
+/* password input box*/
+#password{
+    position: relative;
+    background-color: #FFFDFD;
+    color: #32161F;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 210px;
+    border: 3px solid #32161F;
+    height: 20px;
+    border-radius: 20px; 
+    font-family: "Garamond", Times, serif;
+    padding: 4px;
+}
+#password:hover{
+    box-shadow: 0 2.5px 10px rgba(56, 5, 5, 0.606);
+}
+
+/* sign in button*/
+#signinButton{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    border: 2px #32161F;
+    border-radius: 20px;
+    width: 90px;
+    height: 28px;
+    background-color: #32161F;
+    color: #FFFDFD;
+    font-size: medium;
+    margin: 5px 105px;
+    font-family: "Garamond", Times, serif;
+}
+#signinButton:hover{
+    box-shadow: 0 3px 10px rgba(56, 5, 5, 0.606);
+}
+
+/* sign up button */
+#signupButton{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 62px ;
+    border:transparent;
+    border-radius: 12px;
+    width: 175px;
+    background-color: #fffdfd00;
+    color: #738290;
+    font-size: medium;
+    margin-bottom: 15px;
+    font-family: "Garamond", Times, serif;
+}
+#signupButton:hover{
+    color:#FFFDFD;
+}
